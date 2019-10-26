@@ -1,0 +1,16 @@
+{
+  "name": "codecoach",
+  "version": "1.0.0",
+  "description": "Code Coach",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nate Tewelde & Conor Forrester",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
