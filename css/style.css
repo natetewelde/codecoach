@@ -1,0 +1,27 @@
+/* Navbar Styles */
+
+.navbar {
+    background-color: #133975;
+}
+
+.navbar-nav > li {
+    font-size: 120%;
+    font-family: "Roboto", sans-serif; 
+}
+
+.navbar-nav > li > a:hover {
+    color: #53adc0 !important;
+}
+
+.navbar-nav > li > a {
+    color: white !important;
+}
+
+
+#brand {
+    margin-bottom: 2px;
+}
+
+.carousel-item img {
+    opacity: 0.5;
+}
