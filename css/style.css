@@ -1,12 +1,13 @@
-/* Navbar Styles */
-
-.navbar {
-    background-color: #133975;
+body {
+    background: #53adc0;
+    font-family: "Roboto", sans-serif;
 }
+
+/* Navbar Styles */
 
 .navbar-nav > li {
     font-size: 120%;
-    font-family: "Roboto", sans-serif; 
+    font-family: "Roboto", sans-serif;
 }
 
 .navbar-nav > li > a:hover {
@@ -17,11 +18,41 @@
     color: white !important;
 }
 
+.navbar.scrolled {
+    background: #133975;
+    color: white;
+    transition: background 500ms;
+}
+
+.textblock {
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 100%;
+}
 
 #brand {
     margin-bottom: 2px;
 }
 
-.carousel-item img {
-    opacity: 0.5;
+.img-fluid {
+    opacity: 75%;
+}
+
+.site-footer {
+    background-color: #133975;
+    padding: 20px 0px;
+    color: white;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.site-footer a:hover {
+    color: #53adc0;
+    text-decoration: none;
 }
