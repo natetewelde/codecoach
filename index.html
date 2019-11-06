@@ -13,56 +13,64 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <title>Code Coach</title>
 </head>
     <body>
 
-        <!-- Navbar -->
-
-        <nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top navbar-dark">
-            <a href="index.html" class="navbar-brand" ><img id="brand" src="img/logo.png" height="30" width="30"></a>              
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#coachNavbar" aria-controls="coachNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="coachNavbar">
-                    <ul class="navbar-nav nav-fill w-50">   
-                        <li class="nav-item"><a class="nav-link" href="index.html"> HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html"> ABOUT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="coaches.html"> COACHES</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html"> CONTACT</a></li>
-                    </ul>
+        <!-- Navbar -->      
+            <nav id="mainNavbar" class="navbar navbar-expand-sm sticky-top navbar-dark">
+                <div class="container">             
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#coachNavbar" aria-controls="coachNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="coachNavbar">
+                            <ul class="navbar-nav nav-fill w-100">   
+                                <li class="nav-item"><a class="nav-link" href="index.html"> HOME</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html"> ABOUT</a></li>
+                                <li class="nav-item"><a class="nav-link" href="coaches.html"> COACHES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html"> CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
         <!-- Initial Landing Page -->
 
-        <div class="imgblock">
-            <img class="img-fluid" src="img/carousel3.jpg" alt="Code Background">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card border-0 shadow my-5 w3-animate-left">
+                        <div class="card-body text-white text-center p-5">
+                            <h1 class="font-weight-light">One on One Learning</h1>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card border-0 shadow my-5 w3-animate-right">
+                        <div class="card-body text-white text-center p-5">
+                            <h1 class="font-weight-light">Affordable Pricing Options</h1>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card border-0 shadow my-5 w3-animate-left">
+                        <div class="card-body text-white text-center p-5">
+                            <h1 class="font-weight-light">Your Own Schedule</h1>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="textblock">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo sint soluta, eveniet tenetur fuga harum? Vel alias sunt minima quaerat.</p>
-        </div>
+        <!-- Footer -->
 
-        <div class="imgblock">
-            <img class="img-fluid" src="img/carousel1.jpg" alt="Code Background">
-        </div>
-
-        <div class="textblock">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo sint soluta, eveniet tenetur fuga harum? Vel alias sunt minima quaerat.</p>
-        </div>
-
-        <div class="imgblock">
-            <img class="img-fluid" src="img/carousel2.jpg" alt="Code Background">
-        </div>
-
-        <div class="textblock">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo sint soluta, eveniet tenetur fuga harum? Vel alias sunt minima quaerat.</p>
-        </div>
-
-        <footer class="site-footer">
+        <footer class="site-footer sticky-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-4 col-sm-2 offset-1">
@@ -82,8 +90,8 @@
                         <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-2x"></i></a>
                     </div>
                     <div class="col-sm-4 text-center">
-                        <a class="btn btn-link" role="button" href="tel:+12065551234"><i class="fa fa-phone fa-lg"></i> 1-206-555-1234 </a> <br /> 
-                        <a class="btn btn-link" role="button" href="mailto:campsites@numcap.co"><i class="fa fa-envelope-o fa-lg"></i> campsites@nucamp.co </a>
+                        <a class="btn btn-link" role="button" href="tel:+1234567890"><i class="fa fa-phone fa-lg"></i> 1-123-456-7890 </a> <br /> 
+                        <a class="btn btn-link" role="button" href="mailto:codecoach@coach.co"><i class="fa fa-envelope-o fa-lg"></i> codecoach@coach.co </a>
                     </div>
                 </div>
             </div>
@@ -96,14 +104,6 @@
 
         <!-- Additional Javascript -->
         <script src="js/script.js"></script>
-        <script>
-            $(function() {
-                $(document).scroll(function(){
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                });
-            });
-        </script>
 
     </body>
 </html>
