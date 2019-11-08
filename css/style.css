@@ -107,3 +107,36 @@ body {
     text-align: center;
     padding-top: 70px;
 }
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 3px #133975 solid;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0 40px 0 40px;
+}
+
+
+h3 {
+    padding: 0 40px 0 40px;
+}
+
+.formcontainer {
+    background: #133975;
+    opacity: 85%;
+}
+
+.col a {
+    color: white;
+}
+
+.col a:hover {
+    color:#53adc0;
+}
